@@ -6,7 +6,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# City: LONDON
+Clusters of distinct commercial centers or markets is made using points of interest data of a city. Points of interest (POI) data provides location information of different places along with their defining tags like school, type of outlets, type of building, etc.
+POI data refers to the coordinates of any physical entity with a tag describing its type like commercial buildings, schools, hospitals, restaurants, etc.
+
+### Clustering Algorithm : DBSCAN
+ DBSCAN groups together points that are close to each other based on a distance measurement (usually Euclidean distance) and a minimum number of points. It also marks as outliers the points that are in low-density regions.
+ A density method clusters points based on the density of their distribution, with an island of densely distributed points belonging to a cluster and sparsely distributed points classed as outliers. We also don’t have to choose the number of clusters we want, that number is borne out by the data and a few parameters of the algorithm (e.g. min points and epsilon).
+
+I have used OpenStreet Map and Leaflet.js to add layer of marker over the map.
+Overpy Library is used to extract data from OpenstreetMap.
 
 ```markdown
 Syntax highlighted code block
@@ -26,12 +35,3 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GrtSid/clustering_geological_data/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

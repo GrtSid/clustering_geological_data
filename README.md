@@ -1,10 +1,3 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/GrtSid/clustering_geological_data/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
 
 # City: LONDON
 Clusters of distinct commercial centers or markets is made using points of interest data of a city. Points of interest (POI) data provides location information of different places along with their defining tags like school, type of outlets, type of building, etc.
@@ -17,21 +10,17 @@ POI data refers to the coordinates of any physical entity with a tag describing 
 I have used OpenStreet Map and Leaflet.js to add layer of marker over the map.
 Overpy Library is used to extract data from OpenstreetMap.
 
-```markdown
-Syntax highlighted code block
+The Link below is an interactive map which marks all the points of interest data points in the city of London. To access the webpage you need to clone the project and open index.html file.
 
-# Header 1
-## Header 2
-### Header 3
+[Link](https://github.com/GrtSid/clustering_geological_data/blob/master/index.html)
 
-- Bulleted
-- List
+Here is a image of my work:
+![Image](https://github.com/GrtSid/clustering_geological_data/blob/master/image/export%20(1).png)
 
-1. Numbered
-2. List
+I have used Jupyter Notebook for my project.
+First the data is collected from sources and saved in a csv file.
+Then I trained my model to cluster the geological coordinates wherein the clusters with more than two point of interest data points are considered as important and correspondingly plotted in the figure.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
+Source:
+1) OpenStreetMap
+2) TowardsDataScience

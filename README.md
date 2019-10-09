@@ -10,9 +10,9 @@ POI data refers to the coordinates of any physical entity with a tag describing 
 I have used OpenStreet Map and Leaflet.js to add layer of marker over the map.
 Overpy Library is used to extract data from OpenstreetMap.
 
-The Link below is an interactive map which marks all the points of interest data points in the city of London. To access the webpage you need to clone the project and open index.html file.
+The Link below is an interactive map which marks all the points of interest data points in the city of London.
 
-[Link](https://github.com/GrtSid/clustering_geological_data/blob/master/index.html)
+[Link](https://grtsid.github.io/clustering_geological_data/)
 
 Here is a image of my work:
 ![Image](https://github.com/GrtSid/clustering_geological_data/blob/master/image/export%20(1).png)
